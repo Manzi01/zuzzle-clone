@@ -1,0 +1,224 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --used-color1:#14284d;
+    --logo-color2:#25579d;
+    --sign-color3:#0014ff;
+    --usd-color4:#f2f2f2;
+    
+}
+header{
+    position:absolute;
+    width: 100%;
+}
+.promotions{
+    background-color: var(--used-color1);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 8px;
+}
+section .menu{
+    display: flex;
+    flex-direction: row;
+   
+}
+.side-menu{
+    display: block;
+    border: 1px solid black;
+    height: 1047px;
+    width: 80px;
+    position:sticky;
+    background-color: #f2f2f2;
+}
+
+.side-menu div{
+    padding-block: 20px;
+    padding-left: 9px;
+    font-size: 17px;
+    font-weight: normal;
+}
+.top-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width:1330px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.555);
+    font-size:20px;
+    position:inherit;
+    
+}
+.tops{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.logo{
+    padding-left: 30px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: var(--used-color1);
+    font-style: italic;
+}
+.search{
+    border-radius: 50px;
+    width: 300px;
+}
+::placeholder{
+    padding-left: 20px;
+}
+.bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.sell{
+    background-color: #f2f2f2;
+    color: black;
+    height: 40px;
+    width: 140px;
+    border-radius: 6px;
+    border: 1px solid #f2f2f2;
+}
+.in{
+    background-color: #0014ff;
+    color: white;
+    height: 40px;
+    border: 1px solid #0014ff;
+    border-radius: 6px;
+    width: 120px;
+}
+
+main{
+    margin-left: 70px;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.one p{
+    padding-right: 20px;
+    font-size: 19px;
+
+}
+.one .shop{
+    color: var(--logo-color2);
+    font-weight: bolder;
+
+}
+.yours{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-block: 30px;
+    font-size: 28px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.719);
+}
+.img{
+    display: flex;
+    flex-direction: row;
+    
+}
+.img img{
+    width: 140px;
+    border-radius: 50%;
+    
+}
+
+.img div{
+    padding-left: 60px;
+}
+.img p{
+    padding-left: 20px;
+    padding-block: 10px;
+    font-size: 19px;
+}
+
+
+.threes{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom: 300px;
+    background-image: url(asset/111.webp)  ;
+    background-size: cover;
+    object-fit: fill;
+}
+.threes span{
+    padding-top: 40px;
+    position: absolute;
+    font-size: 50px;
+    padding-left:44px;
+}
+.threes p{
+    padding-top: 120px;
+    position: absolute;
+       
+    font-size: 24px;
+    padding-left: 40px;
+}
+.now{
+    width: 100px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 29px;
+}
+
+footer{
+    padding-block: 20px;
+    
+    margin-left: 77px;
+    background-color: #14284d;
+    color: white;
+    padding-left: 60px
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-block: 8px;
+    border-bottom:2px solid rgb(255, 255, 255)  ;
+}
+.logos{
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+    font-style: italic;
+}
+.firsts{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.firsts div{
+    padding-left: 90px;
+    padding-top: 40px;
+
+}
+.firsts p{
+    padding-top: 10px;
+}
+.firsts p:hover{
+    cursor: pointer;
+    color: red;
+}
+footer .last{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
